@@ -1,0 +1,155 @@
+/* NIRE GAUZAK
+       ========================================================================== */
+body {
+  margin: 0; 
+  text-align:center;
+  background:grey;
+  }
+#atzealdea{
+	background-image:url("../irudiak/fondoa.png");
+	border: solid 1px #ccc;
+	border-radius:0 0 15px 15px;
+}
+#aukerak{
+	margin-bottom:30px;
+	}
+#itauna{
+	font-size:22px;
+	font-style:italic;
+	font-weight:bold;
+	color: #610B0B; 
+	text-shadow: 0 0 0.8em #F87, 0 0 0.8em #F87;
+	margin:0;
+	padding:10px;
+}
+#galderantzunak{
+	font-size:20px;
+	height:325px;
+}
+#arraposta{
+	min-height:6em;
+	width: 100%;
+	font-size:16px;
+	white-space: pre-wrap;
+	background:#fff;
+	border: solid 1px grey;
+	border-radius: 15px;
+	color:#610B0B;
+	text-align:center;
+	margin-bottom:0;
+}
+#aukera1{
+	border-radius:10px;
+	font-size:1rem;
+	margin:2px;
+}
+#aukera2{
+	border-radius:10px;
+	font-size:1rem;
+	margin:2px;
+}
+#aukera3{
+	border-radius:10px;
+	font-size:1rem;
+	margin:2px;
+}
+
+#markagailua{
+	text-align:center;
+	}
+#puntuak{
+width:125px;
+float:left;
+border-left: solid 1px grey;
+	border-right: solid 1px grey;
+	border-bottom: solid 1px grey;
+	border-radius:15px;
+background:#fff;
+	font-size:1.2rem;
+	color:#610B0B;
+	margin-bottom:0px;
+}
+
+#galderak{
+width:125px;
+float:right;
+border-left: solid 1px grey;
+	border-right: solid 1px grey;
+	border-bottom: solid 1px grey;
+	border-radius:15px;
+	background:#fff;
+	font-size:1.2rem;
+	color:#610B0B;
+	margin-bottom:0px;
+}
+#tit{
+	position:relative;
+	background:#fff;
+	padding:1 0 1 0;
+	border-left: solid 1px grey;
+	border-right: solid 1px grey;
+	border-bottom: solid 1px grey;
+	border-radius:0 0 40px 40px;
+	color:#610B0B;
+	text-align:center;
+	margin-top:0;
+}
+#jarraitu{
+	position:relative;
+	border:0;
+	height:30px;
+	}
+#jarraitu:hover{
+	position:relative;
+	border:0;
+	background:transparent;
+	height:30px;
+	}
+/* ----------------- */
+@media print, screen and (max-width: 40em) {
+#tit{
+	border-radius:0 0 25px 25px;
+	}}
+.itxi{
+	position:absolute;
+	border-radius:50%;
+	top:30px;
+	right:0;
+	}
+@media print, screen and (max-width: 40em) {
+.itxi{
+  width:35px;
+  top:35px;
+	right:0;
+	  }}
+/* -------------------- */
+.info{
+	position:absolute;
+	border-radius:50%;
+	top:30px;
+	left:0;
+	}
+@media print, screen and (max-width: 40em) {
+.info{
+  width:35px;
+  top:35px;
+	left:0;
+	  }}
+/* ---------------------- */
+.segi{
+	position:absolute;
+	cursor:pointer;
+	border-radius:25%;
+	bottom:0px;
+	left:45%;
+	}
+@media print, screen and (max-width: 40em) {
+	#aukerak{
+	margin-bottom:5px;
+	}
+.segi{
+  width:60px;
+  height:30px;
+  bottom:0px;
+	left:45%;
+	  }}
