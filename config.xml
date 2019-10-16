@@ -1,63 +1,19 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harridurazko perpausak</title>
-    <link rel="stylesheet" href="css/foundation1.css">
-    <link rel="stylesheet" href="css/estiloa.css">
-	<link rel="stylesheet" href="css/sweetalert.css">
-  </head>
-  <body onLoad='aurrizkiak()'>
-    <div class="grid-container" id="atzealdea">
-		<div class="grid-x grid-padding-x">
-		<div class="large-12 medium-12 cell">
-			<div id="tit" class="large-12 cell">
-				<h2>HARRIDURAZKO PERPAUSAK</h2>
-				<h4>(15 saio)</h4>
-				<a id="alde"><img class="itxi" src="irudiak/itxi1.png" alt="Alde egiteko"></img></a>
-				<a id="info"><img  class="info" src="irudiak/info1.png" alt="Alde egiteko"></img></a>
-			</div>
-		</div>
-		</div>
-		<div class="grid-x grid-padding-x">
-			<div class="large-12 medium-12 cell">
-					<div id="markagailua" class="grid-x grid-padding-x">
-					  <div class="large-6 small-6 cell">
-						<label id="galderak">---</label>
-					  </div>
-					  <div class="large-6 small-6 cell">
-						<label id="puntuak">---</label>
-					  </div>
-					</div>
-					<h4 id="itauna">---</h4>
-					<div class="grid-x grid-padding-x">
-						<div class="large-12 cell">
-							<textarea id="arraposta"></textarea>
-						</div>
-					</div>	
-					
-					<div id="aukerak" class="grid-x grid-padding-x">
-						<div class="large-4 small-12 cell">
-							<a  class="expanded button" id="aukera1">---</a>
-						</div>
-						<div class="large-4 small-12 cell">
-							<a  class="expanded button" id="aukera2">---</a>
-						</div>
-						<div class="large-4 small-12 cell">
-							<a  class="expanded button" id="aukera3">---</a>
-						</div>
-					</div>
-					<div class="large-12 small-12 cell" id="jarraitu">
-							<img  class="segi" src="irudiak/segi.png" alt="Jarraitzeko"></img>
-					</div>
-			</div>
-        </div>
-    </div>
-	<script src="js/galdetegia.js"></script>
-	<script src="js/kudeaketa.js"></script>
-    <script src="js/foundation.js"></script>
-	<script src="js/sweetalert.js" ></script>
-  </body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id = "com.phonegap.example"
+		versionCode = "10"
+		version = "1.0.0">
+ 
+		<name>Harridura</name>
+		<description>
+			Harridurazko perpausak lantzeko 'itzulpentegia'
+		</description>
+		  
+		<author href="www.praiskopedia.com" email= "praiskopedia@gmail.com">
+			Praisko
+		</author>
+
+</widget>
+  
